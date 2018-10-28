@@ -1,0 +1,103 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom styles
+-------------------------------------------------- */
+input#upload {
+	display: none;
+}
+
+.msT {
+  margin-top: 10px;
+}
+.mlT {
+  margin-top: 20px;
+}
+.mjT {
+  margin-top: 30px;
+}
+.msB {
+  margin-bottom: 10px;
+}
+.mlB {
+  margin-bottom: 20px;
+}
+.mjB {
+  margin-bottom: 30px;
+}
+.msR {
+  margin-right: 10px;
+}
+.mlR {
+  margin-right: 20px;
+}
+.mjR {
+  margin-right: 30px;
+}
+.msL {
+  margin-left: 10px;
+}
+.mlL {
+  margin-left: 20px;
+}
+.mjL {
+  margin-left: 30px;
+}
+
+.psT {
+  padding-top: 10px;
+}
+.plT {
+  padding-top: 20px;
+}
+.pjT {
+  padding-top: 30px;
+}
+.psB {
+  padding-bottom: 10px;
+}
+.plB {
+  padding-bottom: 20px;
+}
+.pjB {
+  padding-bottom: 30px;
+}
+.psR {
+  padding-right: 10px;
+}
+.plR {
+  padding-right: 20px;
+}
+.pjR {
+  padding-right: 30px;
+}
+.psL {
+  padding-left: 10px;
+}
+.plL {
+  padding-left: 20px;
+}
+.pjL {
+  padding-left: 30px;
+}

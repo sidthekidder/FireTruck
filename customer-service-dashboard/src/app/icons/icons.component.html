@@ -1,0 +1,39 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Unresolved Issues</h4>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      User ID
+                                  </th>
+                                  <th>
+                                      Problem Type
+                                  </th>
+                              </thead>
+                              <tbody>
+                                <tr *ngFor="let issue of issues">
+                                  <div  *ngIf="issue.resolved == false">
+                                    <td>
+                                      {{issue.customerId}}
+                                    </td>
+                                    <td>
+                                      {{issue.problemType}}
+                                    </td>
+                                  </div>
+                                </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title">Issue Collection</h4>
+                      <p class="card-category">Complete the issue details</p>
+                  </div>
+                  <div class="card-body">
+                      <form>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput name="inputType" autocomplete="off" [(ngModel)]="inputType" placeholder="Type" type="text" >
+                                </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput name="inputLocation" [(ngModel)]="inputLocation" placeholder="Location" type="text">
+                                </mat-form-field>
+                              </div>
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput name="inputSeverity" [(ngModel)]="inputSeverity" placeholder="Severity" type="text">
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <label>Description</label>
+                                <mat-form-field class="example-full-width">
+                                   <textarea matInput name="inputDescription" [(ngModel)]="inputDescription" placeholder="Enter description here."></textarea>
+                                 </mat-form-field>
+                              </div>
+                          </div>
+                          <button mat-raised-button type="submit" (click)="hitPostApi()" class="btn btn-danger pull-right">SUBMIT</button>
+                          <div class="clearfix"></div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
